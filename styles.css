@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.section-one {
+    background-color: grey;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.modal {
+    display: flex;
+    justify-content: space-around;
+}
+
+.intro {
+    max-width: 250px;
+}
+
+.img {
+    width: 300px;
+    height: auto;
+}
+
+
+.section-two {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    gap:40px;
+}
+
+
+.section-three {
+    background-color: #E5e7eb;
+}
+
+.section-four {
+    background-color: white;
+}
+
+.footer {
+    background-color: #1f2937;
+}
+
